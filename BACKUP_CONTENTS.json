@@ -1,0 +1,14 @@
+{
+  "includes": [
+    "experiment scripts",
+    "configs",
+    "logs",
+    "reports",
+    "60 evaluation outcomes",
+    "48 rollout videos",
+    "tokenizer",
+    "exact upstream source archive"
+  ],
+  "large_model_and_optimizer_files": "Stored in the three Hugging Face model repositories from results/manifest.json",
+  "credential_redacted_files": []
+}

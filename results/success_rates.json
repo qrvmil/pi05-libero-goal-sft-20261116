@@ -1,0 +1,110 @@
+[
+  {
+    "task": "put the bowl on the plate",
+    "step": 250,
+    "n_success": 1,
+    "n_episodes": 5,
+    "sr": 0.2,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+    "checkpoint_path": "checkpoints/000250"
+  },
+  {
+    "task": "put the bowl on the plate",
+    "step": 500,
+    "n_success": 0,
+    "n_episodes": 5,
+    "sr": 0.0,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+    "checkpoint_path": "checkpoints/000500"
+  },
+  {
+    "task": "put the bowl on the plate",
+    "step": 750,
+    "n_success": 3,
+    "n_episodes": 5,
+    "sr": 0.6,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+    "checkpoint_path": "checkpoints/000750"
+  },
+  {
+    "task": "put the bowl on the plate",
+    "step": 1000,
+    "n_success": 5,
+    "n_episodes": 5,
+    "sr": 1.0,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+    "checkpoint_path": "checkpoints/001000"
+  },
+  {
+    "task": "open the middle drawer of the cabinet",
+    "step": 250,
+    "n_success": 0,
+    "n_episodes": 5,
+    "sr": 0.0,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+    "checkpoint_path": "checkpoints/000250"
+  },
+  {
+    "task": "open the middle drawer of the cabinet",
+    "step": 500,
+    "n_success": 4,
+    "n_episodes": 5,
+    "sr": 0.8,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+    "checkpoint_path": "checkpoints/000500"
+  },
+  {
+    "task": "open the middle drawer of the cabinet",
+    "step": 750,
+    "n_success": 1,
+    "n_episodes": 5,
+    "sr": 0.2,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+    "checkpoint_path": "checkpoints/000750"
+  },
+  {
+    "task": "open the middle drawer of the cabinet",
+    "step": 1000,
+    "n_success": 2,
+    "n_episodes": 5,
+    "sr": 0.4,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+    "checkpoint_path": "checkpoints/001000"
+  },
+  {
+    "task": "push the plate to the front of the stove",
+    "step": 250,
+    "n_success": 1,
+    "n_episodes": 5,
+    "sr": 0.2,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+    "checkpoint_path": "checkpoints/000250"
+  },
+  {
+    "task": "push the plate to the front of the stove",
+    "step": 500,
+    "n_success": 1,
+    "n_episodes": 5,
+    "sr": 0.2,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+    "checkpoint_path": "checkpoints/000500"
+  },
+  {
+    "task": "push the plate to the front of the stove",
+    "step": 750,
+    "n_success": 2,
+    "n_episodes": 5,
+    "sr": 0.4,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+    "checkpoint_path": "checkpoints/000750"
+  },
+  {
+    "task": "push the plate to the front of the stove",
+    "step": 1000,
+    "n_success": 3,
+    "n_episodes": 5,
+    "sr": 0.6,
+    "checkpoint_repo": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+    "checkpoint_path": "checkpoints/001000"
+  }
+]

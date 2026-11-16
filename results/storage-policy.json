@@ -1,0 +1,5 @@
+{
+  "model_repositories": "public",
+  "experiment_metadata": "private",
+  "reason": "All 12 complete FP32 checkpoints with optimizer states require approximately 600GB, beyond free private storage quota."
+}

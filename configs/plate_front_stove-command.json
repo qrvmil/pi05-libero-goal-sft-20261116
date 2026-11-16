@@ -1,0 +1,6 @@
+[
+  "lerobot-train",
+  "--config_path=/workspace/pi05-libero/outputs/plate_front_stove/checkpoints/last/pretrained_model/train_config.json",
+  "--resume=true",
+  "--policy.push_to_hub=false"
+]

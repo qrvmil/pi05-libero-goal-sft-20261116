@@ -1,0 +1,7 @@
+Using Python 3.12.15 environment at: /venv/main
+Resolved 1 package in 769ms
+Downloading py-spy (2.8MiB)
+ Downloaded py-spy
+Prepared 1 package in 1.30s
+Installed 1 package in 11ms
+ + py-spy==0.4.3

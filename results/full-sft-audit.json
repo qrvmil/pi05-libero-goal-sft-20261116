@@ -1,0 +1,29 @@
+[
+  {
+    "task": "put the bowl on the plate",
+    "trainable_parameters": 4143404816,
+    "total_parameters": 4143404816,
+    "peft": null,
+    "freeze_vision_encoder": false,
+    "train_expert_only": false,
+    "steps": 1000
+  },
+  {
+    "task": "open the middle drawer of the cabinet",
+    "trainable_parameters": 4143404816,
+    "total_parameters": 4143404816,
+    "peft": null,
+    "freeze_vision_encoder": false,
+    "train_expert_only": false,
+    "steps": 1000
+  },
+  {
+    "task": "push the plate to the front of the stove",
+    "trainable_parameters": 4143404816,
+    "total_parameters": 4143404816,
+    "peft": null,
+    "freeze_vision_encoder": false,
+    "train_expert_only": false,
+    "steps": 1000
+  }
+]

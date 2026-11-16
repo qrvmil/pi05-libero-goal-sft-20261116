@@ -1,0 +1,95 @@
+{
+  "slug": "bowl_on_plate",
+  "language": "put the bowl on the plate",
+  "step": 1000,
+  "checkpoint_repo": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+  "checkpoint_path": "checkpoints/001000",
+  "n_episodes": 5,
+  "seed": 1000,
+  "libero_task_id": 8,
+  "evaluation": {
+    "per_task": [
+      {
+        "task_group": "libero_goal",
+        "task_id": 8,
+        "metrics": {
+          "sum_rewards": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "max_rewards": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "successes": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "video_paths": [
+            "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_0.mp4",
+            "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_1.mp4",
+            "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_2.mp4",
+            "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_3.mp4"
+          ],
+          "predicted_video_paths": []
+        },
+        "n_episodes": 5,
+        "n_success": 5,
+        "pc_success": 100.0,
+        "pc_success_ci95": [
+          56.551753521682535,
+          100.0
+        ]
+      }
+    ],
+    "per_group": {
+      "libero_goal": {
+        "avg_sum_reward": 1.0,
+        "avg_max_reward": 1.0,
+        "pc_success": 100.0,
+        "n_episodes": 5,
+        "n_success": 5,
+        "pc_success_ci95": [
+          56.551753521682535,
+          100.0
+        ],
+        "video_paths": [
+          "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_0.mp4",
+          "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_1.mp4",
+          "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_2.mp4",
+          "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_3.mp4"
+        ],
+        "predicted_video_paths": []
+      }
+    },
+    "overall": {
+      "avg_sum_reward": 1.0,
+      "avg_max_reward": 1.0,
+      "pc_success": 100.0,
+      "n_episodes": 5,
+      "n_success": 5,
+      "pc_success_ci95": [
+        56.551753521682535,
+        100.0
+      ],
+      "eval_s": 7.665283918380737,
+      "eval_ep_s": 1.533056879043579,
+      "video_paths": [
+        "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_0.mp4",
+        "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_1.mp4",
+        "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_2.mp4",
+        "/workspace/pi05-libero/outputs/bowl_on_plate/eval/videos_step_001000/libero_goal_8/eval_episode_3.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  }
+}

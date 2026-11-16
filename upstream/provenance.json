@@ -1,0 +1,7 @@
+{
+  "upstream_url": "https://github.com/huggingface/lerobot",
+  "upstream_commit": "781d3daccc64e8ce3e3d0910e64b2b0180551059",
+  "archive_sha256": "9a08ba6ba383b14f766365aa03cc29045c70a4f6f8e5aac73d85348ccaf2223d",
+  "archive_bytes": 21028128,
+  "source_working_tree_clean": true
+}

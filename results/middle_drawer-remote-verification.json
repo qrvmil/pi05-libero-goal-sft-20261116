@@ -1,0 +1,329 @@
+{
+  "repo_id": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+  "commit": "01ec22953cd8712c120d3a19519bdf9d942ee62b",
+  "tags": [
+    "000250",
+    "000500",
+    "000750",
+    "001000"
+  ],
+  "file_count": 78,
+  "all_four_checkpoints_verified": true,
+  "four_distinct_trained_weight_files": true,
+  "final_root_weights_equal_step_1000": true,
+  "all_evaluations_have_five_attempts": true,
+  "files": {
+    ".gitattributes": {
+      "size": 1968,
+      "blob_id": "d7ca0b69b9f1af7e448c2af7e9d4672fe8dba977"
+    },
+    "COMPARISON.md": {
+      "size": 1410,
+      "blob_id": "849f9625ef98997492b1c7c15d28bb1aa2029408"
+    },
+    "README.md": {
+      "size": 2368,
+      "blob_id": "4e6a025b1e71ee8cc21c1b8d8b69ddef8d3b5d6c"
+    },
+    "checkpoints/000250/.evaluated": {
+      "size": 61,
+      "blob_id": "f2d1940dc0cf24a7bb9669f0cc22636d2d76a3e9"
+    },
+    "checkpoints/000250/pretrained_model/config.json": {
+      "size": 2770,
+      "blob_id": "fbe019490ace52175ec9dbd95bc2799342047363"
+    },
+    "checkpoints/000250/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "d719e782947c0719560bc1110334c70644be4b1e"
+    },
+    "checkpoints/000250/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000250/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/000250/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000250/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "checkpoints/000250/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000250/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000250/pretrained_model/train_config.json": {
+      "size": 11206,
+      "blob_id": "8217e1ddb2788bc814e2776e397dea7c25b17d24"
+    },
+    "checkpoints/000250/training_state/optimizer_param_groups.json": {
+      "size": 14140,
+      "blob_id": "bc85a368717ae9f4e0127d2dc3e3b15f95478bff"
+    },
+    "checkpoints/000250/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "92803bbd50a976c79a1804d1fde9d456231ccc71"
+    },
+    "checkpoints/000250/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "74fc3cfb530dcd663d997d9ea34df45c84b47d75"
+    },
+    "checkpoints/000250/training_state/scheduler_state.json": {
+      "size": 250,
+      "blob_id": "7b35ed9e0e18c661bc05a90478e34819e9616f3a"
+    },
+    "checkpoints/000250/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "116c48cd57f4bb8a7b68a280a1136827ce81f85d"
+    },
+    "checkpoints/000500/.evaluated": {
+      "size": 61,
+      "blob_id": "a582f90d163f36068c149cc05c65eac028fc6338"
+    },
+    "checkpoints/000500/pretrained_model/config.json": {
+      "size": 2770,
+      "blob_id": "fbe019490ace52175ec9dbd95bc2799342047363"
+    },
+    "checkpoints/000500/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "4b5b4310620d2acc919534b1fd7d4a60d3cce605"
+    },
+    "checkpoints/000500/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000500/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/000500/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000500/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "checkpoints/000500/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000500/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000500/pretrained_model/train_config.json": {
+      "size": 11266,
+      "blob_id": "b79c25dc0b86c814e728557abb4460c57a3824df"
+    },
+    "checkpoints/000500/training_state/optimizer_param_groups.json": {
+      "size": 14141,
+      "blob_id": "e01aa3af39adccba55553ae3a25fab9a63684857"
+    },
+    "checkpoints/000500/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "ba0ef820adff987e1aaca46710d6d46adadf8a03"
+    },
+    "checkpoints/000500/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "faaadcbc172911a4a172b662d679e3cd58aa2f98"
+    },
+    "checkpoints/000500/training_state/scheduler_state.json": {
+      "size": 251,
+      "blob_id": "f4d2438834fc56608da4606d6831b8b444339daf"
+    },
+    "checkpoints/000500/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "ddbd79599ae9b1d280ede0a3c26f573b9fef09c5"
+    },
+    "checkpoints/000750/.evaluated": {
+      "size": 61,
+      "blob_id": "5a3027b7508d136e7ff6d8a89495248195e1aa86"
+    },
+    "checkpoints/000750/pretrained_model/config.json": {
+      "size": 2770,
+      "blob_id": "fbe019490ace52175ec9dbd95bc2799342047363"
+    },
+    "checkpoints/000750/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "4c8b31bc031b5969efbbabf7ffbfc533974b20a1"
+    },
+    "checkpoints/000750/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000750/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "checkpoints/000750/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000750/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "checkpoints/000750/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000750/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000750/pretrained_model/train_config.json": {
+      "size": 11266,
+      "blob_id": "b79c25dc0b86c814e728557abb4460c57a3824df"
+    },
+    "checkpoints/000750/training_state/optimizer_param_groups.json": {
+      "size": 14141,
+      "blob_id": "7db26c0c5a470acc82a762af4349674cfa7fe30f"
+    },
+    "checkpoints/000750/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "b2e17281c6ae689f436af48bc9b907e46076b347"
+    },
+    "checkpoints/000750/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "7bc10dee725ed8b56f4cdd84022b3a1747767fb5"
+    },
+    "checkpoints/000750/training_state/scheduler_state.json": {
+      "size": 251,
+      "blob_id": "fd0723a28c98245982397f3ecbef3f9a28936d60"
+    },
+    "checkpoints/000750/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "41bc475f4e741798f1bb29e53880079def61c806"
+    },
+    "checkpoints/001000/.evaluated": {
+      "size": 61,
+      "blob_id": "27f00f5fa2b5123a3b76670048d0cb342668bfef"
+    },
+    "checkpoints/001000/pretrained_model/config.json": {
+      "size": 2770,
+      "blob_id": "fbe019490ace52175ec9dbd95bc2799342047363"
+    },
+    "checkpoints/001000/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "9184f5d029bf0def37c11b3dcb3cdb97302c7d64"
+    },
+    "checkpoints/001000/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/001000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "checkpoints/001000/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/001000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "checkpoints/001000/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/001000/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/001000/pretrained_model/train_config.json": {
+      "size": 11266,
+      "blob_id": "b79c25dc0b86c814e728557abb4460c57a3824df"
+    },
+    "checkpoints/001000/training_state/optimizer_param_groups.json": {
+      "size": 14124,
+      "blob_id": "2bfd139678793756b178fdc7eef74fe00639fafb"
+    },
+    "checkpoints/001000/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "9fe563c9db1a93f12ad9fa995c6c9eb3be248040"
+    },
+    "checkpoints/001000/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "fbeba0f381ac2e3fa30f4007022da5bdacd2c83b"
+    },
+    "checkpoints/001000/training_state/scheduler_state.json": {
+      "size": 236,
+      "blob_id": "82ca17be9d43e8a085363b6b0cd00169d43c6eab"
+    },
+    "checkpoints/001000/training_state/training_step.json": {
+      "size": 255,
+      "blob_id": "33b7293fb4589e3e592c49a504975daa06f8e9be"
+    },
+    "config.json": {
+      "size": 2770,
+      "blob_id": "fbe019490ace52175ec9dbd95bc2799342047363"
+    },
+    "evaluations/000250/eval.json": {
+      "size": 3196,
+      "blob_id": "2af89fc0ebc103c80e9385523881272004b49c6f"
+    },
+    "evaluations/000500/eval.json": {
+      "size": 3175,
+      "blob_id": "cee92925a6d03ad8f0601a50aa14281cc68b3c3f"
+    },
+    "evaluations/000750/eval.json": {
+      "size": 3182,
+      "blob_id": "0e38a36dedab065a5fa0a15cece2df5bb1e79804"
+    },
+    "evaluations/001000/eval.json": {
+      "size": 3180,
+      "blob_id": "72bc622104f667049d1247803d2f6016bfad1b82"
+    },
+    "model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "9184f5d029bf0def37c11b3dcb3cdb97302c7d64"
+    },
+    "policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7620,
+      "blob_id": "695f65aa9ae630211918209ec86362c2b4d2f645"
+    },
+    "success_rates.csv": {
+      "size": 1454,
+      "blob_id": "84828723a6174a2f9982e416d10053a1c7efdbf4"
+    },
+    "success_rates.json": {
+      "size": 3009,
+      "blob_id": "77a73d0f4f170b29138a6dcc2dff59b26da77da8"
+    },
+    "tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "train_config.json": {
+      "size": 11266,
+      "blob_id": "b79c25dc0b86c814e728557abb4460c57a3824df"
+    }
+  }
+}

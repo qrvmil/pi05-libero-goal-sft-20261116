@@ -1,0 +1,47 @@
+{
+  "token_present": true,
+  "hf_home": "/workspace/.cache/huggingface",
+  "identity": "qrvmil",
+  "auth": {
+    "type": "access_token",
+    "accessToken": {
+      "displayName": "vast-universal",
+      "role": "fineGrained",
+      "createdAt": "2026-11-04T12:31:07.342Z",
+      "fineGrained": {
+        "canReadGatedRepos": true,
+        "global": [
+          "discussion.write",
+          "post.write"
+        ],
+        "scoped": [
+          {
+            "entity": {
+              "_id": "6a06303f1b095ce1e9b34825",
+              "type": "user",
+              "name": "qrvmil"
+            },
+            "permissions": [
+              "repo.contribute.write",
+              "repo.content.read",
+              "repo.access.read",
+              "repo.write",
+              "inference.serverless.write",
+              "inference.endpoints.infer.write",
+              "inference.endpoints.write",
+              "user.webhooks.read",
+              "user.webhooks.write",
+              "collection.read",
+              "collection.write",
+              "discussion.write",
+              "user.billing.read",
+              "job.write",
+              "user.notifications.read",
+              "user.notifications.write"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "HF_HUB_DISABLE_XET": true,
+  "protocol": "HTTP/LFS multipart",
+  "parallel_parts_per_file": 32,
+  "training_repeated": false,
+  "integrity_test": "Local real-HTTP round trip, SHA256 reconstruction, out-of-order parts, 123-byte tail, and retry after HTTP 503 passed."
+}

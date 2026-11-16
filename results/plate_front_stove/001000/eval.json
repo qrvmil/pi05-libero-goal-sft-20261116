@@ -1,0 +1,95 @@
+{
+  "slug": "plate_front_stove",
+  "language": "push the plate to the front of the stove",
+  "step": 1000,
+  "checkpoint_repo": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+  "checkpoint_path": "checkpoints/001000",
+  "n_episodes": 5,
+  "seed": 1000,
+  "libero_task_id": 5,
+  "evaluation": {
+    "per_task": [
+      {
+        "task_group": "libero_goal",
+        "task_id": 5,
+        "metrics": {
+          "sum_rewards": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "max_rewards": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "successes": [
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "video_paths": [
+            "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_0.mp4",
+            "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_1.mp4",
+            "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_2.mp4",
+            "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_3.mp4"
+          ],
+          "predicted_video_paths": []
+        },
+        "n_episodes": 5,
+        "n_success": 3,
+        "pc_success": 60.0,
+        "pc_success_ci95": [
+          23.072428127601295,
+          88.2379225767352
+        ]
+      }
+    ],
+    "per_group": {
+      "libero_goal": {
+        "avg_sum_reward": 0.6,
+        "avg_max_reward": 0.6,
+        "pc_success": 60.0,
+        "n_episodes": 5,
+        "n_success": 3,
+        "pc_success_ci95": [
+          23.072428127601295,
+          88.2379225767352
+        ],
+        "video_paths": [
+          "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_0.mp4",
+          "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_1.mp4",
+          "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_2.mp4",
+          "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_3.mp4"
+        ],
+        "predicted_video_paths": []
+      }
+    },
+    "overall": {
+      "avg_sum_reward": 0.6,
+      "avg_max_reward": 0.6,
+      "pc_success": 60.0,
+      "n_episodes": 5,
+      "n_success": 3,
+      "pc_success_ci95": [
+        23.072428127601295,
+        88.2379225767352
+      ],
+      "eval_s": 14.263636827468872,
+      "eval_ep_s": 2.8527274131774902,
+      "video_paths": [
+        "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_0.mp4",
+        "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_1.mp4",
+        "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_2.mp4",
+        "/workspace/pi05-libero/outputs/plate_front_stove/eval/videos_step_001000/libero_goal_5/eval_episode_3.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  }
+}

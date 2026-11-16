@@ -1,0 +1,6 @@
+{
+  "repo_id": "qrvmil/pi05-paligemma-tokenizer-20261116",
+  "source": "https://storage.googleapis.com/big_vision/paligemma_tokenizer.model",
+  "sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+  "sentencepiece_equivalence_verified": true
+}

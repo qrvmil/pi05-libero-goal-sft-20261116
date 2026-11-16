@@ -1,0 +1,13 @@
+task,step,n_success,n_episodes,sr,checkpoint_repo,checkpoint_path
+put the bowl on the plate,250,1,5,0.2,qrvmil/pi05-libero-goal-bowl_on_plate-20261116,checkpoints/000250
+put the bowl on the plate,500,0,5,0.0,qrvmil/pi05-libero-goal-bowl_on_plate-20261116,checkpoints/000500
+put the bowl on the plate,750,3,5,0.6,qrvmil/pi05-libero-goal-bowl_on_plate-20261116,checkpoints/000750
+put the bowl on the plate,1000,5,5,1.0,qrvmil/pi05-libero-goal-bowl_on_plate-20261116,checkpoints/001000
+open the middle drawer of the cabinet,250,0,5,0.0,qrvmil/pi05-libero-goal-middle_drawer-20261116,checkpoints/000250
+open the middle drawer of the cabinet,500,4,5,0.8,qrvmil/pi05-libero-goal-middle_drawer-20261116,checkpoints/000500
+open the middle drawer of the cabinet,750,1,5,0.2,qrvmil/pi05-libero-goal-middle_drawer-20261116,checkpoints/000750
+open the middle drawer of the cabinet,1000,2,5,0.4,qrvmil/pi05-libero-goal-middle_drawer-20261116,checkpoints/001000
+push the plate to the front of the stove,250,1,5,0.2,qrvmil/pi05-libero-goal-plate_front_stove-20261116,checkpoints/000250
+push the plate to the front of the stove,500,1,5,0.2,qrvmil/pi05-libero-goal-plate_front_stove-20261116,checkpoints/000500
+push the plate to the front of the stove,750,2,5,0.4,qrvmil/pi05-libero-goal-plate_front_stove-20261116,checkpoints/000750
+push the plate to the front of the stove,1000,3,5,0.6,qrvmil/pi05-libero-goal-plate_front_stove-20261116,checkpoints/001000

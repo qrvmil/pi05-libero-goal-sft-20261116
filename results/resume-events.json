@@ -1,0 +1,13 @@
+[
+  {
+    "task": "bowl_on_plate",
+    "resumed_from_step": 250,
+    "reason": "Enable concurrent checkpoint uploads and GPU training/evaluation after first checkpoint and evaluation were safely uploaded.",
+    "discarded_unsaved_updates": 9
+  },
+  {
+    "task": "middle_drawer",
+    "resumed_from_step": 250,
+    "reason": "Remove synchronous metadata uploads from GPU process; separate supervisor service handles them. All recorded evaluations retained."
+  }
+]

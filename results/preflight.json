@@ -1,0 +1,15 @@
+{
+  "credential_presence": {},
+  "packages": {
+    "torch": false,
+    "jax": false,
+    "huggingface_hub": false,
+    "lerobot": false
+  },
+  "hf": {
+    "status": 200
+  },
+  "github": {
+    "status": 200
+  }
+}

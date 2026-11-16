@@ -1,0 +1,25 @@
+qrvmil/pi05-libero-goal-bowl_on_plate-20261116 VERIFIED 6972f453880bad207ba0c76a65f844909b875647
+qrvmil/pi05-libero-goal-middle_drawer-20261116 VERIFIED 01ec22953cd8712c120d3a19519bdf9d942ee62b
+qrvmil/pi05-libero-goal-plate_front_stove-20261116 VERIFIED 6e8bd54aaf5637e590579451a246bde186efa52c
+{
+  "status": "verified",
+  "sft_runs": 3,
+  "steps_per_run": 1000,
+  "checkpoints": 12,
+  "evaluation_attempts": 60,
+  "distinct_final_models": 3,
+  "repositories": [
+    {
+      "repo_id": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+      "commit": "6972f453880bad207ba0c76a65f844909b875647"
+    },
+    {
+      "repo_id": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+      "commit": "01ec22953cd8712c120d3a19519bdf9d942ee62b"
+    },
+    {
+      "repo_id": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+      "commit": "6e8bd54aaf5637e590579451a246bde186efa52c"
+    }
+  ]
+}

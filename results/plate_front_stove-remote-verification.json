@@ -1,0 +1,325 @@
+{
+  "repo_id": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+  "commit": "6e8bd54aaf5637e590579451a246bde186efa52c",
+  "tags": [
+    "000250",
+    "000500",
+    "000750",
+    "001000"
+  ],
+  "file_count": 77,
+  "all_four_checkpoints_verified": true,
+  "four_distinct_trained_weight_files": true,
+  "final_root_weights_equal_step_1000": true,
+  "all_evaluations_have_five_attempts": true,
+  "files": {
+    ".gitattributes": {
+      "size": 1968,
+      "blob_id": "d7ca0b69b9f1af7e448c2af7e9d4672fe8dba977"
+    },
+    "COMPARISON.md": {
+      "size": 1410,
+      "blob_id": "849f9625ef98997492b1c7c15d28bb1aa2029408"
+    },
+    "README.md": {
+      "size": 2376,
+      "blob_id": "f31f4333abf28855e09c6f84dfc51b83b97e11bc"
+    },
+    "checkpoints/000250/pretrained_model/config.json": {
+      "size": 2774,
+      "blob_id": "f235d9799ca9f905b5154b699776ffcb7ca088be"
+    },
+    "checkpoints/000250/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "c8c060e0418fb06f1a9397ef95c0d4693d6f7205"
+    },
+    "checkpoints/000250/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000250/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/000250/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000250/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "checkpoints/000250/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000250/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000250/pretrained_model/train_config.json": {
+      "size": 11048,
+      "blob_id": "b3db04771a159bb34e68a3fc1199d6fe5477d790"
+    },
+    "checkpoints/000250/training_state/optimizer_param_groups.json": {
+      "size": 14140,
+      "blob_id": "bc85a368717ae9f4e0127d2dc3e3b15f95478bff"
+    },
+    "checkpoints/000250/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "ee5e511f536d253b89c9e3e6678848ad82f7aae0"
+    },
+    "checkpoints/000250/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "74fc3cfb530dcd663d997d9ea34df45c84b47d75"
+    },
+    "checkpoints/000250/training_state/scheduler_state.json": {
+      "size": 250,
+      "blob_id": "7b35ed9e0e18c661bc05a90478e34819e9616f3a"
+    },
+    "checkpoints/000250/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "116c48cd57f4bb8a7b68a280a1136827ce81f85d"
+    },
+    "checkpoints/000500/.evaluated": {
+      "size": 65,
+      "blob_id": "d10558cf1a30f417f52f61c546526aced0739ea1"
+    },
+    "checkpoints/000500/pretrained_model/config.json": {
+      "size": 2774,
+      "blob_id": "f235d9799ca9f905b5154b699776ffcb7ca088be"
+    },
+    "checkpoints/000500/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "e4fcc9c61903a48e147719c8288389b8f5304a9e"
+    },
+    "checkpoints/000500/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000500/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/000500/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000500/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "checkpoints/000500/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000500/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000500/pretrained_model/train_config.json": {
+      "size": 11048,
+      "blob_id": "b3db04771a159bb34e68a3fc1199d6fe5477d790"
+    },
+    "checkpoints/000500/training_state/optimizer_param_groups.json": {
+      "size": 14141,
+      "blob_id": "e01aa3af39adccba55553ae3a25fab9a63684857"
+    },
+    "checkpoints/000500/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "767722842ddc29d4e7e297e2a430720a52971f77"
+    },
+    "checkpoints/000500/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "611455a5370d1d8320510fa30cacdb03c4211213"
+    },
+    "checkpoints/000500/training_state/scheduler_state.json": {
+      "size": 251,
+      "blob_id": "f4d2438834fc56608da4606d6831b8b444339daf"
+    },
+    "checkpoints/000500/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "ddbd79599ae9b1d280ede0a3c26f573b9fef09c5"
+    },
+    "checkpoints/000750/.evaluated": {
+      "size": 65,
+      "blob_id": "058790ecdc91307687ae6898b6722878a26e2852"
+    },
+    "checkpoints/000750/pretrained_model/config.json": {
+      "size": 2774,
+      "blob_id": "f235d9799ca9f905b5154b699776ffcb7ca088be"
+    },
+    "checkpoints/000750/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "425858426a361930ce6f15c33de868891a259e90"
+    },
+    "checkpoints/000750/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/000750/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/000750/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/000750/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "checkpoints/000750/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/000750/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/000750/pretrained_model/train_config.json": {
+      "size": 11048,
+      "blob_id": "b3db04771a159bb34e68a3fc1199d6fe5477d790"
+    },
+    "checkpoints/000750/training_state/optimizer_param_groups.json": {
+      "size": 14141,
+      "blob_id": "7db26c0c5a470acc82a762af4349674cfa7fe30f"
+    },
+    "checkpoints/000750/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "3ce24aea7db7e5d04486702d8f2245c439c02fd4"
+    },
+    "checkpoints/000750/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "eeddabc1477c5cc34219fe5bc7bf126516939ede"
+    },
+    "checkpoints/000750/training_state/scheduler_state.json": {
+      "size": 251,
+      "blob_id": "fd0723a28c98245982397f3ecbef3f9a28936d60"
+    },
+    "checkpoints/000750/training_state/training_step.json": {
+      "size": 254,
+      "blob_id": "41bc475f4e741798f1bb29e53880079def61c806"
+    },
+    "checkpoints/001000/.evaluated": {
+      "size": 65,
+      "blob_id": "c2532dc31f821517650babed7b5e5e289278e385"
+    },
+    "checkpoints/001000/pretrained_model/config.json": {
+      "size": 2774,
+      "blob_id": "f235d9799ca9f905b5154b699776ffcb7ca088be"
+    },
+    "checkpoints/001000/pretrained_model/model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "62cb535f68161c797401558059b12127352f2e51"
+    },
+    "checkpoints/001000/pretrained_model/policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "checkpoints/001000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "checkpoints/001000/pretrained_model/policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "checkpoints/001000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "checkpoints/001000/pretrained_model/tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "checkpoints/001000/pretrained_model/tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "checkpoints/001000/pretrained_model/train_config.json": {
+      "size": 11048,
+      "blob_id": "b3db04771a159bb34e68a3fc1199d6fe5477d790"
+    },
+    "checkpoints/001000/training_state/optimizer_param_groups.json": {
+      "size": 14124,
+      "blob_id": "2bfd139678793756b178fdc7eef74fe00639fafb"
+    },
+    "checkpoints/001000/training_state/optimizer_state.safetensors": {
+      "size": 25988800372,
+      "blob_id": "d0564cddce92c25d75c4834e10962f49533d35b7"
+    },
+    "checkpoints/001000/training_state/rng_state.safetensors": {
+      "size": 15712,
+      "blob_id": "63b07b5c5acec6e1390e77633b1fd7a041ed3903"
+    },
+    "checkpoints/001000/training_state/scheduler_state.json": {
+      "size": 236,
+      "blob_id": "82ca17be9d43e8a085363b6b0cd00169d43c6eab"
+    },
+    "checkpoints/001000/training_state/training_step.json": {
+      "size": 255,
+      "blob_id": "33b7293fb4589e3e592c49a504975daa06f8e9be"
+    },
+    "config.json": {
+      "size": 2774,
+      "blob_id": "f235d9799ca9f905b5154b699776ffcb7ca088be"
+    },
+    "evaluations/000250/eval.json": {
+      "size": 3242,
+      "blob_id": "ad9ad9707b27e1c754c428b2468df1890a3d3496"
+    },
+    "evaluations/000500/eval.json": {
+      "size": 3241,
+      "blob_id": "187666b5b160052dac8615dd886c09d908fc2a24"
+    },
+    "evaluations/000750/eval.json": {
+      "size": 3237,
+      "blob_id": "7889326f016c130048f3c02dea0151544ab1bf13"
+    },
+    "evaluations/001000/eval.json": {
+      "size": 3238,
+      "blob_id": "016048bb71db3d8c3842149baeab5546c6361daf"
+    },
+    "model.safetensors": {
+      "size": 16573754384,
+      "blob_id": "62cb535f68161c797401558059b12127352f2e51"
+    },
+    "policy_postprocessor.json": {
+      "size": 777,
+      "blob_id": "d902b950aa6dbd60d420ca396edd7dbafc7dca9d"
+    },
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "size": 7668,
+      "blob_id": "e75542de525061dee2549887013968b3516cdfdc"
+    },
+    "policy_preprocessor.json": {
+      "size": 2160,
+      "blob_id": "8d6d891ba6ffe9bed93b6b64a8fbfc4aa62e9c63"
+    },
+    "policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "size": 7676,
+      "blob_id": "d2c86c71e46e42bbccaae7f38c1747edca3b7936"
+    },
+    "success_rates.csv": {
+      "size": 1454,
+      "blob_id": "84828723a6174a2f9982e416d10053a1c7efdbf4"
+    },
+    "success_rates.json": {
+      "size": 3009,
+      "blob_id": "77a73d0f4f170b29138a6dcc2dff59b26da77da8"
+    },
+    "tokenizer/tokenizer.json": {
+      "size": 34609422,
+      "blob_id": "d44475c1f84beaee2ea60d125264099c3f2e502b"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "size": 300,
+      "blob_id": "356d5280878ead5a70afe8c14dac4b266c283ec9"
+    },
+    "train_config.json": {
+      "size": 11048,
+      "blob_id": "b3db04771a159bb34e68a3fc1199d6fe5477d790"
+    }
+  }
+}

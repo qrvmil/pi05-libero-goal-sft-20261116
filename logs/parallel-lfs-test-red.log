@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_roundtrip_with_out_of_order_completion_and_short_last_part (__main__.ParallelUploadIntegrityTest.test_roundtrip_with_out_of_order_completion_and_short_last_part)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/pi05-libero/scripts/test_parallel_lfs.py", line 17, in test_roundtrip_with_out_of_order_completion_and_short_last_part
+    self.assertTrue(module_path.exists(),'parallel HTTP multipart transport is not implemented')
+AssertionError: False is not true : parallel HTTP multipart transport is not implemented
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

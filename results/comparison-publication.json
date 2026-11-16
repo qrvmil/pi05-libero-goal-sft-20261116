@@ -1,0 +1,14 @@
+[
+  {
+    "repo_id": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+    "comparison_commit": "6972f453880bad207ba0c76a65f844909b875647"
+  },
+  {
+    "repo_id": "qrvmil/pi05-libero-goal-middle_drawer-20261116",
+    "comparison_commit": "01ec22953cd8712c120d3a19519bdf9d942ee62b"
+  },
+  {
+    "repo_id": "qrvmil/pi05-libero-goal-plate_front_stove-20261116",
+    "comparison_commit": "763a3c0165572b01f46ce7eb1bfbf67b4f8d86c3"
+  }
+]

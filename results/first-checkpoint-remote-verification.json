@@ -1,0 +1,75 @@
+{
+  "repo_id": "qrvmil/pi05-libero-goal-bowl_on_plate-20261116",
+  "commit": "984df0a7340a1858a10cc1e0d2266b97afa5acf0",
+  "private": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1616
+    },
+    {
+      "path": "README.md",
+      "size": 2381
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/config.json",
+      "size": 2768
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/model.safetensors",
+      "size": 16573754384
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/policy_postprocessor.json",
+      "size": 777
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "size": 7668
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/policy_preprocessor.json",
+      "size": 2160
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "size": 7676
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/tokenizer/tokenizer.json",
+      "size": 34609422
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/tokenizer/tokenizer_config.json",
+      "size": 300
+    },
+    {
+      "path": "checkpoints/000250/pretrained_model/train_config.json",
+      "size": 11306
+    },
+    {
+      "path": "checkpoints/000250/training_state/optimizer_param_groups.json",
+      "size": 14140
+    },
+    {
+      "path": "checkpoints/000250/training_state/optimizer_state.safetensors",
+      "size": 25988800372
+    },
+    {
+      "path": "checkpoints/000250/training_state/rng_state.safetensors",
+      "size": 15712
+    },
+    {
+      "path": "checkpoints/000250/training_state/scheduler_state.json",
+      "size": 250
+    },
+    {
+      "path": "checkpoints/000250/training_state/training_step.json",
+      "size": 254
+    },
+    {
+      "path": "evaluations/000250/eval.json",
+      "size": 3167
+    }
+  ]
+}

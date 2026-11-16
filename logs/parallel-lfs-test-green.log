@@ -1,0 +1,14 @@
+test_roundtrip_with_out_of_order_completion_and_short_last_part (test_parallel_lfs.ParallelUploadIntegrityTest.test_roundtrip_with_out_of_order_completion_and_short_last_part) ... HTTP_MULTIPART_START weights.bin parts=6 chunk_bytes=1048576 workers=4
+/venv/main/lib/python3.12/site-packages/httpx2/_models.py:424: DeprecationWarning: Use 'content=<...>' to upload raw bytes/text content.
+  headers, stream = encode_request(
+HTTP Error 503 thrown while requesting PUT http://127.0.0.1:42395/2
+Retrying in 1s [Retry 1/5].
+HTTP_MULTIPART_PROGRESS weights.bin parts=1/6 bytes=1048576/5243003
+HTTP_MULTIPART_PROGRESS weights.bin parts=6/6 bytes=5243003/5243003
+HTTP_MULTIPART_COMPLETE weights.bin
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.529s
+
+OK

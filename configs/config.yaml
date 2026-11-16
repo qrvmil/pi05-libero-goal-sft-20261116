@@ -1,0 +1,5 @@
+assets: /venv/main/lib/python3.12/site-packages/libero/libero/assets
+bddl_files: /venv/main/lib/python3.12/site-packages/libero/libero/bddl_files
+benchmark_root: /venv/main/lib/python3.12/site-packages/libero/libero
+datasets: /workspace/pi05-libero/data
+init_states: /venv/main/lib/python3.12/site-packages/libero/libero/init_files

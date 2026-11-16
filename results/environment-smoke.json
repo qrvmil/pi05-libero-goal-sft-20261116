@@ -1,0 +1,47 @@
+{
+  "bowl_on_plate": {
+    "reset_ok": true,
+    "step_ok": true,
+    "observation_keys": [
+      "observation.images.image",
+      "observation.images.image2",
+      "observation.state"
+    ],
+    "info_keys": [
+      "is_success",
+      "task",
+      "elapsed_steps",
+      "metrics"
+    ]
+  },
+  "middle_drawer": {
+    "reset_ok": true,
+    "step_ok": true,
+    "observation_keys": [
+      "observation.images.image",
+      "observation.images.image2",
+      "observation.state"
+    ],
+    "info_keys": [
+      "is_success",
+      "task",
+      "elapsed_steps",
+      "metrics"
+    ]
+  },
+  "plate_front_stove": {
+    "reset_ok": true,
+    "step_ok": true,
+    "observation_keys": [
+      "observation.images.image",
+      "observation.images.image2",
+      "observation.state"
+    ],
+    "info_keys": [
+      "is_success",
+      "task",
+      "elapsed_steps",
+      "metrics"
+    ]
+  }
+}

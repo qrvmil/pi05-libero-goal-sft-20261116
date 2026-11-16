@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "bowl_on_plate",
+    "actual_task_indices": [
+      10
+    ],
+    "frames": 4563,
+    "episodes": 49
+  },
+  {
+    "slug": "middle_drawer",
+    "actual_task_indices": [
+      19
+    ],
+    "frames": 6019,
+    "episodes": 43
+  },
+  {
+    "slug": "plate_front_stove",
+    "actual_task_indices": [
+      15
+    ],
+    "frames": 4990,
+    "episodes": 33
+  }
+]
